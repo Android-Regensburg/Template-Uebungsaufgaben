@@ -21,7 +21,7 @@ Hier folgt die Aufgabenbeschreibung auf Basis des ursprünglichen Handouts.
 
 ## Hinweise zur Arbeit mit dieser Vorlage
 
-1. Für jede Aufgabe wird ein neues Repository in der Organisation `Android-Regensburg` erstellt. Grundlage (*Template*) ist [dieses Repository](https://github.com/Android-Regensburg-Templates/Template-Uebungsaufgaben).
+1. Für jede Aufgabe wird ein neues Repository in der Organisation `Android-Regensburg` erstellt. Grundlage (*Template*) ist [dieses Repository](https://github.com/Android-Regensburg/Template-Uebungsaufgaben).
 2. Die Repositorys werden einheitlich nach dem Muster `U` + laufende Nummer + `-` + Name der Übung benannt.
 3. Im Master-Branch werden Aufgabenbeschreibung (*Readme*) und Starter-Code ergänzt.
 4. Eingefügte Aufgabenbeschreibung und Starter-Code werden *committet* (Commit-Message: *Initialer Commit mit Aufgabenbeschreibung und Starterpaket.*).
