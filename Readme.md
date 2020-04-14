@@ -1,3 +1,20 @@
+---
+title: Android Basisapplikation
+author: Zuletzt bearbeitet von Alexander Bazo
+documentclass: scrartcl
+classoption:
+  - a4paper
+header-includes: |
+    \usepackage{german} 
+    \usepackage[a4paper,left=2.5cm, right=2.5cm,top=2.5cm, bottom=3cm]{geometry}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \rhead{Mobile Apps für Android}
+    \lhead{Übungsaufgaben}
+    \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
+---
+
 # Android Basisapplikation
 
 Dieses Repository dient als Vorlage für die Übungsaufgaben des Android-Kurses. Im `master`-Branch des
@@ -7,6 +24,8 @@ oder Videos, werden im Ordner `/docs` abgelegt. Der fertige Lösungsvorschlag wi
 in einem separaten Branch `solution` gepflegt. **Dieser Abschnitt wird durch eine kurze Beschreibung der
 jeweiligen Aufgabe ersetzt. Unter der Kurzbeschreibung wird ein aussagekräftiger Screenshot der zu
 entwickelnden Anwendung platziert.**
+
+![](./docs/cover.png)
 
 ## Downloads
 
@@ -28,3 +47,5 @@ Hier folgt die Aufgabenbeschreibung auf Basis des ursprünglichen Handouts.
 5. Auf Basis des Master-Branch wird eine neue Branch `solution` erstellt. Dort wird der bestehende Code mit dem Lösungsvorschlag ergänzt und *comittet* (Commit-Message: *Lösungsvorschlag ergänzt*).
 
 Da Code und Repository ggf. auch den Studierenden zugänglich gemacht werden, werden Commit-Messages, Issues und In-Code-Kommentare auf Deutsch verfasst.
+
+**Auf Basis der `YAML`-Metadaten zu Beginn der Datei kann mit *pandoc* ein PDF des Dokuments mit korrekter Formatierung erzeugt werden.**
